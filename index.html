@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnneSign Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="assets/annesign-logo.png" alt="" class="logo-image">
+    </div>
+    <input type="text" id="what2Say" title="Type in here and the Sign Language spelling will appear below" onchange="words2Faces(this.value)">
+
+<div id="container">
+<div id="aslContainer" title="ASL" class="asl asl-a"></div>
+
+
+</div>
+<div class="message">
+    <p class="message">Developed by @aymashib</p>
+</div>
+<div id="spelledOut"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
